@@ -1,0 +1,21 @@
+.component {
+  padding: 15px 30px;
+  justify-self: flex-end;
+  white-space: nowrap;
+  border: solid 1px #000;
+  background: transparent;
+  color: #000;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.component:hover {
+  border-color: transparent;
+  background-color: #000;
+  color: #fff;
+}
+
+.component:active {
+  transform: scale(0.9);
+}
